@@ -27,7 +27,7 @@ const IndexPage : NextPage<Props> = ({ initialImageUrl }) => {
 		setImageUrl(newImage.url);
 		setLoading(false);
 	};
-	return <><div><button onClick={handleClick}>see others</button></div><div>{loading || <img src={imageUrl} />}</div></>;
+	return <><div><button onClick={handleClick}>one more cat!</button></div><div>{loading || <img src={imageUrl} />}</div></>;
 };
 export default IndexPage;
 
